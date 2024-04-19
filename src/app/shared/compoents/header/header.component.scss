@@ -1,0 +1,34 @@
+@import "~font-awesome/css/font-awesome.css";
+.fa-shopping-cart {
+    margin-right: 5px; 
+  }
+nav {background: linear-gradient(to bottom, #ff69b4, #bc418b);;
+  color: #FFF;
+  .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          width: 20%;
+          margin: 0;
+          li  {
+              cursor: pointer;
+              font-size: 22px;
+              color: #FFF;
+              text-decoration: none;
+            
+          }
+      }
+  }
+  
+
+}
+.logo-image {
+    width: 50px; /* Width of logo image /
+    height: 50px; / Height of logo image /
+    margin-right: 10px; / Spacing between image and text */
+    }
